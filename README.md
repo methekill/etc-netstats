@@ -17,7 +17,7 @@ Add --ethstats option behind the start command
 example)
 
 ```bash
-geth --chain=social --ethstats "<your-nickname>:NewEthereumSocial@stats.ethereumsocial.kr"
+geth --social --ethstats "<your-nickname>:NewEthereumSocial@stats.ethereumsocial.kr"
 ```
 
 ## Prerequisite
