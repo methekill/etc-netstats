@@ -1,7 +1,7 @@
 {
   "name": "etsc-netstats",
   "description": "Ethereum Social Network Intelligence dashboard",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "engines": {
     "node": "8.11.1",
     "npm": "5.6.0"

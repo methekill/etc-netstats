@@ -1,6 +1,9 @@
-Ethereum Social Network Stats
+[Ethereum Social Network Stats](https://stats.ethereumsocial.kr)
 ============
-[![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
+[![Discord](https://discordapp.com/api/guilds/417146776974262273/widget.png)](https://discord.gg/h6vsEuw)
+[![Build Status](https://travis-ci.org/ethereumsocial/etsc-netstats.svg)](https://travis-ci.org/ethereumsocial/etsc-netstats)
+[![dependency status](https://david-dm.org/ethereumsocial/etsc-netstats.svg)](https://david-dm.org/ethereumsocial/etsc-netstats)
+[![NPM module](https://badge.fury.io/js/etsc-netstats.svg)](https://badge.fury.io/js/etsc-netstats)
 
 This is a visual interface for tracking ethereum social network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [etsc-net-intelligence-api](https://github.com/ethereumsocial/etsc-net-intelligence-api).
 
@@ -99,8 +102,3 @@ pm2 save
 ```
 
 see the interface at http://localhost:3000
-
-[travis-image]: https://travis-ci.org/ethereumsocial/etsc-netstats.svg
-[travis-url]: https://travis-ci.org/ethereumsocial/etsc-netstats
-[dep-image]: https://david-dm.org/ethereumsocial/etsc-netstats.svg
-[dep-url]: https://david-dm.org/ethereumsocial/etsc-netstats
