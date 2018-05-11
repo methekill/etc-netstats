@@ -1,6 +1,6 @@
 {
-  "name": "etsc-netstats",
-  "description": "Ethereum Social Network Intelligence dashboard",
+  "name": "etc-netstats",
+  "description": "Ethereum Classic Network Intelligence dashboard",
   "version": "1.0.0",
   "engines": {
     "node": "8.11.1",
@@ -32,11 +32,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereumsocial/etsc-netstats.git"
+    "url": "https://github.com/chainkorea/etc-netstats.git"
   },
-  "homepage": "https://github.com/ethereumsocial/etsc-netstats",
+  "homepage": "https://github.com/chainkorea/etc-netstats",
   "bugs": {
-    "url": "https://github.com/ethereumsocial/etsc-netstats/issues"
+    "url": "https://github.com/chainkorea/etc-netstats/issues"
   },
   "authors": [
     {

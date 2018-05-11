@@ -1,17 +1,15 @@
-[Ethereum Social Network Stats](https://stats.ethereumsocial.kr)
+[Ethereum Classic Network Stats](https://classicstats.net)
 ============
-[![Discord](https://discordapp.com/api/guilds/417146776974262273/widget.png)](https://discord.gg/h6vsEuw)
-[![Build Status](https://travis-ci.org/ethereumsocial/etsc-netstats.svg)](https://travis-ci.org/ethereumsocial/etsc-netstats)
-[![dependency status](https://david-dm.org/ethereumsocial/etsc-netstats.svg)](https://david-dm.org/ethereumsocial/etsc-netstats)
-[![NPM module](https://badge.fury.io/js/etsc-netstats.svg)](https://badge.fury.io/js/etsc-netstats)
+[![Build Status](https://travis-ci.org/chainkorea/etc-netstats.svg)](https://travis-ci.org/chainkorea/etc-netstats)
+[![dependency status](https://david-dm.org/chainkorea/etc-netstats.svg)](https://david-dm.org/chainkorea/etc-netstats)
 
-This is a visual interface for tracking ethereum social network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [etsc-net-intelligence-api](https://github.com/ethereumsocial/etsc-net-intelligence-api).
+This is a visual interface for tracking ethereum classic network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [multi-geth](https://github.com/ethereumsocial/multi-geth).
 
 ![Screenshot](https://raw.githubusercontent.com/cubedro/eth-netstats/master/src/images/screenshot.jpg?v=0.0.6 "Screenshot")
 
-## How to list my nodes on [stats.ethereumsocial.kr](https://stats.ethereumsocial.kr) ?
+## How to list my nodes on [classicstats.net](https://classicstats.net) ?
 
-You can use [multi-geth](https://github.com/ethereumsocial/multi-geth) or [etsc-net-intelligence-api](https://github.com/ethereumsocial/etsc-net-intelligence-api) for connecting to netstats server.
+You can use [multi-geth](https://github.com/ethereumsocial/multi-geth) for connecting to netstats server.
 
 Using multi-geth
 
@@ -20,7 +18,7 @@ Add --ethstats option behind the start command
 example)
 
 ```bash
-geth --social --ethstats "<your-nickname>:NewEthereumSocial@stats.ethereumsocial.kr"
+geth --classic --ethstats "<your-nickname>:EthereumClassic@classicstats.net"
 ```
 
 ## Prerequisite
@@ -35,8 +33,8 @@ Make sure you have node.js and npm installed.
 Clone the repository and install the dependencies
 
 ```bash
-git clone https://github.com/ethereumsocial/etsc-netstats
-cd etsc-netstats
+git clone https://github.com/chainkorea/etc-netstats
+cd etc-netstats
 npm install
 sudo npm install -g grunt-cli
 ```
@@ -77,8 +75,8 @@ sudo npm install -g pm2
 * Create an app.json file in the local directory of etsc-netstats:
 ```json[
   {
-    "name"        : "etsc-netstats",
-    "cwd"         : "<folder-path-to-etsc-netstats-e.g. /home/gethadmin/etsc-netstats/>",
+    "name"        : "etc-netstats",
+    "cwd"         : "<folder-path-to-etc-netstats-e.g. /home/gethadmin/etc-netstats/>",
     "script"      : "app.js",
     "log_date_format"   : "YYYY-MM-DD HH:mm Z",
     "merge_logs"    : false,

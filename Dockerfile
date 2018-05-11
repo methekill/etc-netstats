@@ -9,8 +9,8 @@ RUN apk add --update git nodejs nodejs-npm 	&& \
 	npm install npm@latest -g
 
 RUN cd /root/ && \
-	git clone --depth=1  https://github.com/ethereumsocial/etsc-netstats.git && \
-    cd etsc-netstats && \
+	git clone --depth=1  https://github.com/chainkorea/etc-netstats.git && \
+    cd etc-netstats && \
     npm install && \
     npm install -g grunt-cli && \
     grunt
