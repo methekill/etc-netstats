@@ -11,8 +11,6 @@ This is a visual interface for tracking ethereum classic network status. It uses
 
 You can use [multi-geth](https://github.com/ethereumsocial/multi-geth) for connecting to netstats server.
 
-Using multi-geth
-
 Add --ethstats option behind the start command
 
 example)
